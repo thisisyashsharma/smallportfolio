@@ -231,10 +231,16 @@ body.dark-theme {
   font-size: 2rem;
   color: var(--title-color);
   transition: 0.3s;
+  background-color: rgb(241, 241, 241);
+  border-radius: 0.9rem;
+  padding: 5px;
+  height: 3.1rem;
+  width: 4rem;
 }
 
 .profile__social-link:hover {
   color: var(--first-color);
+  background-color: rgb(217, 237, 255);
 }
 
 .profile__info {
@@ -273,6 +279,13 @@ body.dark-theme {
 }
 
 /*=============== BUTTONS ===============*/
+.button_div {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0rem;
+  background-color: rgb(0, 119, 255);
+  border-radius: 0.6rem;
+}
 .button {
   display: inline-flex;
   align-items: center;
@@ -297,7 +310,7 @@ body.dark-theme {
 }
 
 .button__small {
-  padding: 0.8rem 0.9rem; 
+  padding: 0.8rem 0.9rem;
   box-shadow: none;
 }
 
@@ -343,15 +356,15 @@ body.dark-theme {
 @media (max-width: 768px) {
   .filters__content {
     min-width: 90vw;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     padding: 0.2rem;
     border-radius: 0.4rem;
   }
   .filters__button {
     width: 30%;
     padding: 0.5rem;
-    font-size:0.7rem;
-    margin:0.1rem;
+    font-size: 0.7rem;
+    margin: 0.1rem;
     border-radius: 0.32rem;
   }
 }
